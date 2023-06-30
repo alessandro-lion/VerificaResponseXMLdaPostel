@@ -13,7 +13,7 @@
 	
 	$Filedate = Get-Date -format 'yyyy-MM-dd'
 	
-  $ResultsCSV = "C:\WORK\LOGS\chkresponsepostel.csv." + $Filedate
+  $ResultsCSV = "C:\WORK\LOGS\chkresponsepostel." + $Filedate +".csv"
     
 	$RX = "Error Code=`"[1-9]`" Message=`"[^][]*`""
 	$RXNex ="<Header GlobalCode=`"[1-9]`"[^\!]*"
